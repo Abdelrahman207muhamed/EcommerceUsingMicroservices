@@ -19,5 +19,11 @@
     <ProjectReference Include="..\Basket.Application\Basket.Application.csproj" />
     <ProjectReference Include="Basket.Infrastructure\Basket.Infrastructure.csproj" />
   </ItemGroup>
+	<ItemGroup>
+		<Compile Remove="Basket.Infrastructure\**" />
+		<Content Remove="Basket.Infrastructure\**" />
+		<EmbeddedResource Remove="Basket.Infrastructure\**" />
+		<None Remove="Basket.Infrastructure\**" />
+	</ItemGroup>
 
 </Project>
